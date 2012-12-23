@@ -1,12 +1,6 @@
 <?php
 
-if(! defined('IN_WGCORE')) {
-	//error_reporting(0);
-	//header('HTTP/1.1 404 Not Found');
-	//die();
-}
-
-class Error_Handler {
+class WGError {
 
 	const DEBUG = 1;
 	const NOTICE = 2;
@@ -60,8 +54,7 @@ class Error_Handler {
 			default:
 				$l = 'ERROR';
 		}
-		global $WGCore;
-		$template = $WGCore -> getTemplate();
+		$template = WGCore::getInstance() -> getTemplate();
 		$stack = debug_backtrace();
 		$template -> assign('stack', $stack);
 		$template -> assign('level', $l);
@@ -84,13 +77,12 @@ class Error_Handler {
 	}
 
 	public static function handleException($exception) {
-		$msg = 'Script throws an exception: ' . $exception -> getMessage();
 		$exceptionName = get_class($exception);
+		$msg = "Uncaught exception [$exceptionName]: " . $exception -> getMessage();
 		$line = $exception -> getLine();
 		$file = $exception -> getFile();
 		$stack = $exception -> getTrace();
-		global $WGCore;
-		$template = $WGCore -> getTemplate();
+		$template = WGCore::getInstance() -> getTemplate();
 		$template -> assign('stack', $stack);
 		$template -> assign('level', 'Exception');
 		$template -> assign('errmsg', $msg);
@@ -146,3 +138,7 @@ class Error_Handler {
 	}
 
 }
+
+set_error_handler(array('WGError', 'handleError'));
+set_exception_handler(array('WGError', 'handleException'));
+register_shutdown_function(array('WGError', 'handleFatal'));

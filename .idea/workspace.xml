@@ -1,139 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="438153fd-fbf4-4ed5-8037-183c6fd7ad1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cbpget.iml" afterPath="$PROJECT_DIR$/.idea/cbpget.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="438153fd-fbf4-4ed5-8037-183c6fd7ad1a" name="Default" comment="Error Handler OK.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WGCore/WGTemplate.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WGCore/modules/error_handler.php" afterPath="$PROJECT_DIR$/WGCore/WGError.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/WGCore.class.php" afterPath="$PROJECT_DIR$/WGCore/WGCore.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/error.tpl" afterPath="$PROJECT_DIR$/WGCore/error.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/modules/error_handler.php" afterPath="$PROJECT_DIR$/WGCore/modules/error_handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/Smarty.class.php" afterPath="$PROJECT_DIR$/WGCore/template/Smarty.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/SmartyBC.class.php" afterPath="$PROJECT_DIR$/WGCore/template/SmartyBC.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/debug.tpl" afterPath="$PROJECT_DIR$/WGCore/template/debug.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/block.textformat.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/block.textformat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.counter.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.counter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.cycle.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.cycle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.fetch.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.fetch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_checkboxes.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_checkboxes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_image.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_options.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_radios.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_radios.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_select_date.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_select_date.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_select_time.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_select_time.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.html_table.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.html_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.mailto.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.mailto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/function.math.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/function.math.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.capitalize.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.capitalize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.date_format.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.date_format.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.debug_print_var.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.debug_print_var.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.escape.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.escape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.regex_replace.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.regex_replace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.replace.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.replace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.spacify.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.spacify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifier.truncate.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifier.truncate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.cat.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.cat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_characters.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_characters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_paragraphs.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_paragraphs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_sentences.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_sentences.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_words.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.count_words.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.default.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.escape.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.escape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.from_charset.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.from_charset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.indent.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.indent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.lower.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.lower.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.noprint.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.noprint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.string_format.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.string_format.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.strip.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.strip.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.strip_tags.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.strip_tags.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.to_charset.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.to_charset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.unescape.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.unescape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.upper.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.upper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.wordwrap.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/modifiercompiler.wordwrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/outputfilter.trimwhitespace.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/outputfilter.trimwhitespace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.escape_special_chars.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.escape_special_chars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.literal_compiler_param.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.literal_compiler_param.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.make_timestamp.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.make_timestamp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_str_replace.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_str_replace.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_unicode.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_unicode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_wordwrap.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/shared.mb_wordwrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/plugins/variablefilter.htmlspecialchars.php" afterPath="$PROJECT_DIR$/WGCore/template/plugins/variablefilter.htmlspecialchars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource_custom.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource_custom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource_keyvaluestore.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_cacheresource_keyvaluestore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_config_source.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_config_source.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_cacheresource_file.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_cacheresource_file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_append.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_append.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_assign.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_assign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_block.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_break.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_break.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_call.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_call.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_capture.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_capture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_config_load.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_config_load.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_continue.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_continue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_debug.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_eval.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_extends.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_extends.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_for.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_for.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_foreach.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_foreach.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_function.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_if.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_if.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_include.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_include_php.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_include_php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_insert.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_insert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_ldelim.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_ldelim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_nocache.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_nocache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_block_plugin.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_block_plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_function_plugin.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_function_plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_modifier.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_modifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_object_block_function.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_object_block_function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_object_function.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_object_function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_print_expression.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_print_expression.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_registered_block.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_registered_block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_registered_function.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_registered_function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_special_variable.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_private_special_variable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_rdelim.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_rdelim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_section.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_setfilter.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_setfilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_while.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compile_while.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compilebase.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_compilebase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config_file_compiler.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config_file_compiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_configfilelexer.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_configfilelexer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_configfileparser.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_configfileparser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_data.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_debug.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_filter_handler.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_filter_handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_function_call_handler.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_function_call_handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_get_include_path.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_get_include_path.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_nocache_insert.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_nocache_insert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_parsetree.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_parsetree.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_eval.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_extends.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_extends.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_file.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_php.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_registered.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_registered.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_stream.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_stream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_string.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_resource_string.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_smartytemplatecompiler.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_smartytemplatecompiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_template.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatebase.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatebase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatecompilerbase.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatecompilerbase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatelexer.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templatelexer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templateparser.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_templateparser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_utility.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_write_file.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_write_file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_custom.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_custom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_recompiled.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_recompiled.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_uncompiled.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_resource_uncompiled.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_security.php" afterPath="$PROJECT_DIR$/WGCore/template/sysplugins/smarty_security.php" />
     </list>
     <ignored path="cbpget.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,19 +25,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WGCore.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WGCore.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WGCore/WGCore.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="-5.6923075">
+            <state line="21" column="18" selection-start="634" selection-end="634" vertical-scroll-proportion="0.6050847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smarty_internal_config.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WGTemplate.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WGCore/WGTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="48" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smarty_internal_config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="12" selection-start="5728" selection-end="5728" vertical-scroll-proportion="0.5890411">
+            <state line="196" column="12" selection-start="5728" selection-end="5728" vertical-scroll-proportion="17.0">
               <folding />
             </state>
           </provider>
@@ -174,33 +55,16 @@
       <file leaf-file-name="error.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WGCore/error.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="171" selection-start="586" selection-end="586" vertical-scroll-proportion="-6.5384617">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="16" column="27" selection-start="1466" selection-end="1466" vertical-scroll-proportion="-10.423077">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_handler.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WGCore/modules/error_handler.php">
+      <file leaf-file-name="WGError.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WGCore/WGError.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="4" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-2.9615386">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -221,6 +85,8 @@
       <list>
         <option value="$PROJECT_DIR$/WGCore/error.tpl" />
         <option value="$PROJECT_DIR$/WGCore/modules/error_handler.php" />
+        <option value="$PROJECT_DIR$/WGCore/WGError.php" />
+        <option value="$PROJECT_DIR$/WGCore/WGTemplate.php" />
         <option value="$PROJECT_DIR$/WGCore/WGCore.class.php" />
       </list>
     </option>
@@ -228,8 +94,8 @@
   <component name="PhpDebugGeneral" values_tooltip_delay="1000" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="32" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
     <option name="width" value="1303" />
     <option name="height" value="773" />
   </component>
@@ -307,24 +173,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cbpget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cbpget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WGCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -343,15 +191,20 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="101" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1000" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1000" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1000" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="101" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="95" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WGCore" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -388,18 +241,22 @@
       <created>1356158252275</created>
       <updated>1356158252275</updated>
     </task>
+    <task id="LOCAL-00001" summary="Error Handler OK.">
+      <created>1356188207574</created>
+      <updated>1356188207574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="32" width="1303" height="773" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26210606" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26210606" sideWeight="0.95652175" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -409,6 +266,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -472,12 +330,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WGCore/WGCore.class.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="12" selection-start="5728" selection-end="5728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/error.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="171" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/WGError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="4" selection-start="2993" selection-end="2993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/WGCore.class.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="28" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WGCore/modules/error_handler.php">
+    <entry file="file://$PROJECT_DIR$/WGCore/WGError.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="35" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
           <folding />
@@ -487,75 +373,46 @@
     <entry file="file://$PROJECT_DIR$/WGCore/error.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="30" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WGCore/error.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="171" selection-start="586" selection-end="586" vertical-scroll-proportion="-6.5384617">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#2;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#4;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WGCore/modules/error_handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="4" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-2.9615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WGCore/WGCore.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="-5.6923075">
+        <state line="16" column="27" selection-start="1466" selection-end="1466" vertical-scroll-proportion="-10.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WGCore/template/sysplugins/smarty_internal_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="12" selection-start="5728" selection-end="5728" vertical-scroll-proportion="0.5890411">
+        <state line="196" column="12" selection-start="5728" selection-end="5728" vertical-scroll-proportion="17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/WGError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/WGTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WGCore/WGCore.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="634" selection-end="634" vertical-scroll-proportion="0.6050847">
           <folding />
         </state>
       </provider>
