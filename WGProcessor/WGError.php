@@ -62,7 +62,7 @@ class WGError {
 		$template -> assign('errfile', $errfile);
 		$template -> assign('errline', $errline);
 		//print 'OK';
-		$template -> display(WGCORE_ROOT . 'error.tpl');
+		$template -> display(WGPROCESSOR_ROOT . 'error.tpl');
 		die();
 	}
 
@@ -72,7 +72,7 @@ class WGError {
 			self::printError($level, $errstr, $errfile, $errline);
 		}
 		elseif($level >= self::$reportlevel) {
-			self::$debuginfo[] = array($level, $errstr);
+			self::$debuginfo[] = array($level, $errstr, $errfile, $errline);
 		}
 	}
 
@@ -88,7 +88,7 @@ class WGError {
 		$template -> assign('errmsg', $msg);
 		$template -> assign('errfile', $file);
 		$template -> assign('errline', $line);
-		$template -> display(WGCORE_ROOT . 'error.tpl');
+		$template -> display(WGPROCESSOR_ROOT . 'error.tpl');
 		die();
 	}
 
@@ -130,11 +130,15 @@ class WGError {
 
 	public static function getFunctionLocation($stack) {
 		if (! isset($stack['file'])) {
-			print_r($stack);
-			return 'Unknown';
+			//print_r($stack);
+			return 'Raised By Error.';
 		}
 		if (! isset($stack['line'])) return $stack['file'] . ':0';
 		return $stack['file'] . ':' . $stack['line'];
+	}
+
+	public static function getDebugInfo() {
+		return self::$debuginfo;
 	}
 
 }

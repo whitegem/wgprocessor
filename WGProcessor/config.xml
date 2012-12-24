@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WGConfig>
+	<MySQL>
+		<Host>localhost</Host>
+		<User>root</User>
+		<Pass>meiyoumima</Pass>
+		<Database>test</Database>
+		<Charset>UTF8</Charset>
+	</MySQL>
+	<Error>
+		<LogFile>error.log</LogFile>
+		<LogLevel>INFO</LogLevel>
+		<HaltLevel>WARNING</HaltLevel>
+	</Error>
+	<Template>
+		<Directory>
+			<Compiled>{WGPROCESSOR_ROOT}compile/</Compiled>
+			<Cached>{WGPROCESSOR_ROOT}compile/</Cached>
+		</Directory>
+	</Template>
+</WGConfig>

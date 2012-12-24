@@ -1,15 +1,16 @@
 <?php
 
-define('IN_WGCORE',1);
+define('IN_WGPROCESSOR',1);
 define('DS', DIRECTORY_SEPARATOR);
-define('WGCORE_VERSION', '0.0.1 Alpha');
-define('WGCORE_ROOT', dirname(__FILE__) . DS);
+define('WGPROCESSOR_VERSION', '0.0.1 Alpha');
+define('WGPROCESSOR_ROOT', dirname(__FILE__) . DS);
+//error_reporting(0);
 
 class WGCore {
 
 	private static $instance = NULL;
 	private $template = NULL;
-	private $runtime;
+	private $runtime = 0.0;
 
 	private function __construct() {
 		$this -> runtime = microtime(true);
@@ -17,8 +18,8 @@ class WGCore {
 		$this -> template -> left_delimiter = '{{';
 		$this -> template -> right_delimiter = '}}';
 		$this -> template -> debugging = false;
-		$this -> template -> setCompileDir(WGCORE_ROOT . 'compile');
-		$this -> template -> setCacheDir(WGCORE_ROOT . 'compile');
+		$this -> template -> setCompileDir(WGPROCESSOR_ROOT . 'compile');
+		$this -> template -> setCacheDir(WGPROCESSOR_ROOT . 'compile');
 		WGTemplate::muteExpectedErrors();
 	}
 
@@ -39,7 +40,11 @@ class WGCore {
 	}
 }
 
-require_once(WGCORE_ROOT . 'WGTemplate.php');
-require_once(WGCORE_ROOT . 'WGError.php');
+require_once(WGPROCESSOR_ROOT . 'WGException.php');
+require_once(WGPROCESSOR_ROOT . 'WGError.php');
+require_once(WGPROCESSOR_ROOT . 'WGConfig.php');
+require_once(WGPROCESSOR_ROOT . 'WGTemplate.php');
 
 WGCore::getInstance();
+
+var_dump((string)WGConfig::getInstance() -> MySQL -> Host);
