@@ -20,6 +20,13 @@ class WGConfigNode {
 	public function __toString() {
 		return (string)$this -> instance;
 	}
+
+	public function __call($name, $args) {
+		if(! method_exists($this -> instance, $name)) {
+			throw new WGException('WGConfigNode has no method called ' . $name);
+		}
+		return call_user_func_array(array(&$this -> instance, $name), $args);
+	}
 }
 
 class WGConfig {

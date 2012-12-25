@@ -18,4 +18,38 @@
 			<Cached>{WGPROCESSOR_ROOT}compile/</Cached>
 		</Directory>
 	</Template>
+	<URI>
+		<Rules>
+			<Rule>
+				<Pattern>/home</Pattern>
+				<Backend>website.home</Backend>
+			</Rule>
+			<Rule>
+				<Pattern>/user/([0-9A-Za-z]+)</Pattern>
+				<Backend>website.userinfo</Backend>
+			</Rule>
+			<Rule>
+				<Pattern>/status</Pattern>
+				<Backend>system_status</Backend>
+			</Rule>
+		</Rules>
+		<ErrorPages>
+			<ErrorPage>
+				<Status>400</Status>
+				<Template>{WGPROCESSOR_ROOT}error/400.html</Template>
+			</ErrorPage>
+			<ErrorPage>
+				<Status>403</Status>
+				<Template>{WGPROCESSOR_ROOT}error/403.html</Template>
+			</ErrorPage>
+			<ErrorPage>
+				<Status>404</Status>
+				<Template>{WGPROCESSOR_ROOT}error/404.html</Template>
+			</ErrorPage>
+			<ErrorPage>
+				<Status>500</Status>
+				<Template>{WGPROCESSOR_ROOT}error/500.html</Template>
+			</ErrorPage>
+		</ErrorPages>
+	</URI>
 </WGConfig>
