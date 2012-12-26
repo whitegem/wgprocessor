@@ -1,5 +1,5 @@
-cbpget
+WGProcessor
 ======
 
-CBP-Get
-With API and Plugins Manager!
+WGProcessor
+Developing...

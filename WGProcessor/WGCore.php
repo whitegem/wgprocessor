@@ -46,4 +46,6 @@ require_once(WGPROCESSOR_ROOT . 'WGConfig.php');
 require_once(WGPROCESSOR_ROOT . 'WGTemplate.php');
 
 WGCore::getInstance();
-var_dump(WGConfig::getInstance() -> MySQL -> getName());
+$ins = WGConfig::getInstance() -> asArray();
+var_dump($ins);
+var_dump(libxml_get_last_error());
